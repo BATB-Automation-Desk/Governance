@@ -10,6 +10,7 @@ d. If Some content on this site has different permissions from what you see here
 or continue to <br> 
 e. Grant Permissions> f. Everyone except external users <br>
 g. Select members , visitors and users > h. edit user permissions > i. Contribute > j. select ok <br> 
+<img src="images/permissions.png" alt="Permissions" width="600" height="500"><br>
 4. Adding this seting will block users to make changes to sharepoint list. But keep in note that this will still allow item level permissions. That means user can edit / delete their/others data. <br>
  <h1>PowerApps</h1><br>
 1. Create all apps through DB Automation Desk service account <br> 
