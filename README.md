@@ -11,11 +11,11 @@ or <br>
 e. Grant Permissions> f. Everyone except external users <br>
 g. Select members , visitors and users > h. edit user permissions > i. Contribute > j. select ok <br> 
 4. Adding this seting will block users to make changes to sharepoint list. But keep in note that this will still allow item level permissions. That means user can edit / delete their/others data. <br>
-5. <h1>PowerApps</h1><br>
-6. 1. Create all apps through DB Automation Desk service account <br> 
-7. 2. Go to File > Share and Add Everyone in BAt as User this will allow everyone to get direct access to the app. <br>
-8. 3. In case if you are using Excel as data source you need to keep that in one drive and share that as public and then add in powerApps data source <br> 
-9. 4. While using excel make sure it is not open anywhere or else the app can not read or write. <br> 
+ <h1>PowerApps</h1><br>
+1. Create all apps through DB Automation Desk service account <br> 
+2. Go to File > Share and Add Everyone in BAt as User this will allow everyone to get direct access to the app. <br>
+3. In case if you are using Excel as data source you need to keep that in one drive and share that as public and then add in powerApps data source <br> 
+4. While using excel make sure it is not open anywhere or else the app can not read or write. <br> 
 <h1>Power Automate Data source</h1><br>
 1. Excel and SharePoint both can be used as Power Apps data source <br>
 2. The dafault limit of Excel as data source is 255 rows but it can be tweaked upto 5000 by pagination 
