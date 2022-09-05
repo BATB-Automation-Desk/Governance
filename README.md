@@ -1,7 +1,12 @@
 # BATB Automation desk data and project governance <br> 
 N.B: The data governance regulation has been set based on the data collected from public survey acting as the justification of the regulations. Find the excel file(BATB DBS Automation Desk Data Governance Test Feedback) in this repository to see the detailed data.<br> 
 <h1>General Governance</h1><br>
-
+1. Brief and maintain the user workflow with users:<br>
+<img src="images/user_workflow.png" alt="Permissions" width="500" height="300"><br>
+2. The workflow for developers is as below:<br>
+<img src="images/developer_workflow.png" alt="Permissions" width="500" height="300"><br>
+3. The approximate project timeline is predicted to be as below: <br>
+<img src="images/timeline.png" alt="Permissions" width="500" height="300"><br>
 <h1>PowerApps Data source</h1><br>
 1. Excel is not recommended to use as a data source because of it's sharing issue. Justification: Excel data can only be shared within BAT environment but the sharing modality works only in individual links. that means anyone without the link can not access or need to hit the link at least once which is not feasible. <br>
 2. Use SharePoint list as data source. Justification: SharePoint can be shared with everyone in BAT modality. This is very convenient to use and there are no issues with access. <br>
