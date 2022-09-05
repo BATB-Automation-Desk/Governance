@@ -7,6 +7,7 @@ N.B: The data governance regulation has been set based on the data collected fro
 <img src="images/developer_workflow.png" alt="Permissions" width="500" height="300"><br>
 3. The approximate project timeline is predicted to be as below: <br>
 <img src="images/timeline.png" alt="Permissions" width="500" height="300"><br>
+4. Find DBS Automation desk project backups and their corresponding project description in this github repository.
 <h1>PowerApps Data source</h1><br>
 1. Excel is not recommended to use as a data source because of it's sharing issue. Justification: Excel data can only be shared within BAT environment but the sharing modality works only in individual links. that means anyone without the link can not access or need to hit the link at least once which is not feasible. <br>
 2. Use SharePoint list as data source. Justification: SharePoint can be shared with everyone in BAT modality. This is very convenient to use and there are no issues with access. <br>
@@ -25,7 +26,7 @@ g. Select members , visitors and users > h. edit user permissions > i. Contribut
 4. While using excel make sure it is not open anywhere or else the app can not read or write. <br> 
 <h1>Power Automate Data source</h1><br>
 1. Excel and SharePoint both can be used as Power Automate data source <br>
-2. The dafault limit of Excel as data source is 255 rows but it can be tweaked upto 5000 by pagination <br>
+2. The dafault<b> limit</b> of Excel as data source is <b>255 rows</b> but it can be tweaked upto 5000 by pagination <br>
 3. Deligation should be maintained if the data source is SharePoint List exceeding 5000 iteams in case of Filter / Search / Sort Algorithm.<br> 
 <h1>Power Automate</h1><br>
 1. For a DBS owned project or shared project make sure to host the flow from BD Automation Desk account <br>
